@@ -1,6 +1,6 @@
-[submodule "back"]
-	path = back
+[submodule "BACK-DOMROCK"]
+	path = BACK-DOMROCK
 	url = https://github.com/atomofatec/BACK-DOMROCK
-[submodule "front"]
-	path = front
+[submodule "FRONT-DOMROCK"]
+	path = FRONT-DOMROCK
 	url = https://github.com/atomofatec/FRONT-DOMROCK
