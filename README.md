@@ -60,11 +60,12 @@ de tecnologia.
 
 <span id="backlog-do-produto">
 
-  <details>
+<br> 
+<details>
 <summary><strong>:calendar: Tabela de User Stories</strong></summary>
 
-| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
-|------|------------|------------|------------|--------|-----------------------|
+| Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
+|------|------------|----------------------------------------|--------------------------------|--------|-----------------------|
 | 1    | Alta       | Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto. | 5 pontos | 1      | RF1                  |
 | 2    | Média      | Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores. | 3 pontos | 1      | RF1                  |
 | 3    | Alta       | Como usuário, quero que o bot utilize inteligência artificial para entender a satisfação dos clientes com base nas avaliações e me forneça insights concisos sobre o feedback, para que eu possa tomar decisões mais informadas. | 8 pontos | 1      | RF2                  |
