@@ -9,15 +9,6 @@
   <a href ="#backlogs"> Backlog do Produto </a> • 
   <a href ="#sprints">Sprints</a> •
   <a href ="#equipe">Equipe</a> 
-
-
-    <!--
-    <a href ="#stories"> User Stories </a>  •
-    <a href ="#bpmn"> BPMN </a>  
-    <a href ="#modelagem-banco"> Modelagem do Banco de Dados </a>  •
-    <a href ="#documentos"> Documentação do Projeto </a>  •
-    <a href ="#review">Sprint Reviews</a>  
-    --!>
   
 
 <br>
