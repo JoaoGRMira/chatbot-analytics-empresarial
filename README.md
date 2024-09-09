@@ -82,6 +82,7 @@ de tecnologia.
 <br>
 
 
+
 # :rocket: Sprint 1
 
 <details>
@@ -91,15 +92,31 @@ de tecnologia.
 
   <details>
     <summary><strong>Critérios de Aceitação</strong></summary>
-    
+
     <br>
 
-    | **User Story** | **Critérios de Aceitação** |
-    |----------------|----------------------------|
-    | **User Story 1** | - O bot deve processar comentários de clientes automaticamente.<br> - Relatórios gerados devem ser legíveis e organizados.<br> - Suporte a diferentes formatos de comentários.<br> - Relatórios devem refletir a opinião geral sobre o produto. |
-    | **User Story 2** | - Sistema deve categorizar avaliações por produto.<br> - Dados estruturados e fáceis de acessar.<br> - Múltiplas avaliações associadas a produtos em um painel. |
-    | **User Story 3** | - O bot deve usar IA para interpretar satisfação dos clientes.<br> - Sistema deve fornecer insights concisos.<br> - IA deve evitar respostas imprecisas. |
-    | **User Story 4** | - Sistema deve armazenar informações de forma eficiente.<br> - Tempo de resposta ao consultar dados: inferior a 2 segundos.<br> - Dados armazenados devem ser recuperados sem perda. |
+    <table>
+      <tr>
+        <th>User Story</th>
+        <th>Critérios de Aceitação</th>
+      </tr>
+      <tr>
+        <td><strong>User Story 1</strong></td>
+        <td>- O bot deve processar comentários de clientes automaticamente.<br>- Relatórios gerados devem ser legíveis e organizados.<br>- Suporte a diferentes formatos de comentários.<br>- Relatórios devem refletir a opinião geral sobre o produto.</td>
+      </tr>
+      <tr>
+        <td><strong>User Story 2</strong></td>
+        <td>- Sistema deve categorizar avaliações por produto.<br>- Dados estruturados e fáceis de acessar.<br>- Múltiplas avaliações associadas a produtos em um painel.</td>
+      </tr>
+      <tr>
+        <td><strong>User Story 3</strong></td>
+        <td>- O bot deve usar IA para interpretar satisfação dos clientes.<br>- Sistema deve fornecer insights concisos.<br>- IA deve evitar respostas imprecisas.</td>
+      </tr>
+      <tr>
+        <td><strong>User Story 4</strong></td>
+        <td>- Sistema deve armazenar informações de forma eficiente.<br>- Tempo de resposta ao consultar dados: inferior a 2 segundos.<br>- Dados armazenados devem ser recuperados sem perda.</td>
+      </tr>
+    </table>
 
   </details>
 
@@ -110,17 +127,45 @@ de tecnologia.
 
     <br>
 
-    | **Rank** | **User Story**  | **Estimativa** | **Sprint** |
-    |----------|-----------------|----------------|------------|
-    | 1        | User Story 1     | 5 pontos       | 1          |
-    | 2        | User Story 2     | 3 pontos       | 1          |
-    | 3        | User Story 3     | 8 pontos       | 1          |
-
-    **Total:** 16 pontos
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>User Story</th>
+        <th>Estimativa</th>
+        <th>Sprint</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>User Story 1</td>
+        <td>5 pontos</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>User Story 2</td>
+        <td>3 pontos</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>User Story 3</td>
+        <td>8 pontos</td>
+        <td>1</td>
+      </tr>
+    </table>
 
   </details>
 
 </details>
+
+
+
+
+
+
+
+
+
 
 <br>
 
