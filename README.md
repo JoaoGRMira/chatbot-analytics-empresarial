@@ -6,13 +6,15 @@
   <a href ="#projeto"> Projeto </a>  •
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#prototipo"> Protótipo </a>  • 
-  <a href ="#backlogs"> Backlogs </a> • 
+  <a href ="#backlogs"> Backlog do Produto </a> • 
+    <!--
   <a href ="#stories"> User Stories </a>  •
   <a href ="#bpmn"> BPMN </a>  
   <br>
   <a href ="#modelagem-banco"> Modelagem do Banco de Dados </a>  •
   <a href ="#documentos"> Documentação do Projeto </a>  •
-  <a href ="#review">Sprint Reviews</a>  •
+  <a href ="#review">Sprint Reviews</a>  •  --!>
+  
   <a href ="#equipe">Equipe</a>
 </p>
 
@@ -56,12 +58,11 @@ de tecnologia.
 
 <span id="backlogs">
   
-## 🗓️ Backlogs
+## 🗓️ Backlog do Produto
 
 <span id="backlog-do-produto">
 
 <br> 
-<summary><strong>:calendar: </strong></summary>
 
 | Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
 |------|------------|----------------------------------------|--------------------------------|--------|-----------------------|
