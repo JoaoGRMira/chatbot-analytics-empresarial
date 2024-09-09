@@ -85,39 +85,46 @@ de tecnologia.
 # :rocket: Sprint 1
 
 <details>
-  <summary><strong>Sprint 1 - Detalhes</strong></summary>
+  <summary><strong>:page_facing_up: Sprint 1 - Detalhes</strong></summary>
+
+  <br>
 
   <details>
     <summary><strong>Critérios de Aceitação</strong></summary>
+    
+    <br>
 
-    | User Story | Critérios de Aceitação |
-    |------------|------------------------|
+    | **User Story** | **Critérios de Aceitação** |
+    |----------------|----------------------------|
     | **User Story 1** | - O bot deve processar comentários de clientes automaticamente.<br> - Relatórios gerados devem ser legíveis e organizados.<br> - Suporte a diferentes formatos de comentários.<br> - Relatórios devem refletir a opinião geral sobre o produto. |
     | **User Story 2** | - Sistema deve categorizar avaliações por produto.<br> - Dados estruturados e fáceis de acessar.<br> - Múltiplas avaliações associadas a produtos em um painel. |
     | **User Story 3** | - O bot deve usar IA para interpretar satisfação dos clientes.<br> - Sistema deve fornecer insights concisos.<br> - IA deve evitar respostas imprecisas. |
     | **User Story 4** | - Sistema deve armazenar informações de forma eficiente.<br> - Tempo de resposta ao consultar dados: inferior a 2 segundos.<br> - Dados armazenados devem ser recuperados sem perda. |
 
   </details>
-  
+
   <br>
-  
+
   <details>
     <summary><strong>Backlog - Sprint 1</strong></summary>
 
-    | Rank | User Story | Estimativa | Sprint |
-    |------|------------|------------|--------|
-    | 1    | User Story 1 | 5 pontos   | 1      |
-    | 2    | User Story 2 | 3 pontos   | 1      |
-    | 3    | User Story 3 | 8 pontos   | 1      |
+    <br>
 
+    | **Rank** | **User Story**  | **Estimativa** | **Sprint** |
+    |----------|-----------------|----------------|------------|
+    | 1        | User Story 1     | 5 pontos       | 1          |
+    | 2        | User Story 2     | 3 pontos       | 1          |
+    | 3        | User Story 3     | 8 pontos       | 1          |
+
+    **Total:** 16 pontos
 
   </details>
-<br>
+
 </details>
 
+<br>
 
-
-
+<details>
 <span id="equipe">
 
   ## :clipboard: Equipe
@@ -135,5 +142,5 @@ de tecnologia.
 |**Nicholas Guilherme**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)|
 |**Víctor Henrique**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)|
 |**William da Silva**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/William2819/William2819)|
-
+</details>
 <br>
