@@ -54,11 +54,9 @@ de tecnologia.
 
 <br>
 
-<span id="backlogs">
   
 ## 🗓️ Backlogs
 
-<span id="backlog-do-produto">
 
 <br> 
 <details>
@@ -80,6 +78,22 @@ de tecnologia.
 
 </details>
 
+<br> 
 
+  ## :clipboard: Equipe
+
+<br>
+
+|Nome|Função|GitHub|
+| -------- |-------- |-------- |
+|**Thiago Bueno**|Scrum Master|[![](https://bit.ly/3f9Xo0P)](https://github.com/TjBueno)|
+|**Elisa Carvalho**|Product Owner|[![](https://bit.ly/3f9Xo0P)](https://github.com/elisadsc)|
+|**Rebeca Gama**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/RebecaGama)|
+|**João Gabriel**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/JoaoGRMira)|
+|**Diane Alves**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/Diane-Moreno)|
+|**Rita Hecht**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ritahecht)|
+|**Nicholas Guilherme**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)|
+|**Víctor Henrique**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)|
+|**William da Silva**|Developer Team|[![](https://github.com/William2819/William2819)|
 
 <br>
