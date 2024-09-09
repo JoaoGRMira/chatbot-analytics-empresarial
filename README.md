@@ -7,14 +7,17 @@
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#prototipo"> Protótipo </a>  • 
   <a href ="#backlogs"> Backlog do Produto </a> • 
-  <a href ="#equipe">Equipe</a>
+  <a href ="#sprints">Sprints</a> •
+  <a href ="#equipe">Equipe</a> 
+
+
     <!--
-  <a href ="#stories"> User Stories </a>  •
-  <a href ="#bpmn"> BPMN </a>  
-  <br>
-  <a href ="#modelagem-banco"> Modelagem do Banco de Dados </a>  •
-  <a href ="#documentos"> Documentação do Projeto </a>  •
-  <a href ="#review">Sprint Reviews</a>  •  --!>
+    <a href ="#stories"> User Stories </a>  •
+    <a href ="#bpmn"> BPMN </a>  
+    <a href ="#modelagem-banco"> Modelagem do Banco de Dados </a>  •
+    <a href ="#documentos"> Documentação do Projeto </a>  •
+    <a href ="#review">Sprint Reviews</a>  
+    --!>
   
 </p>
 
@@ -81,6 +84,7 @@ de tecnologia.
 
 <br>
 
+<span id="sprints">
 # :rocket: Sprint 1
 
 <details>
@@ -127,7 +131,6 @@ de tecnologia.
   - **User Story 2:** 3 pontos (Prioridade: Média)
   - **User Story 3:** 8 pontos (Prioridade: Alta)
 
-  **Total de Pontos na Sprint:** 16 pontos
 
 </details>
 
