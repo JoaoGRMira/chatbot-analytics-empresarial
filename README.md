@@ -19,7 +19,6 @@
     <a href ="#review">Sprint Reviews</a>  
     --!>
   
-</p>
 
 <br>
 
