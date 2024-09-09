@@ -54,12 +54,13 @@ de tecnologia.
 
 <br>
 
+<span id="backlogs">
   
 ## 🗓️ Backlogs
 
+<span id="backlog-do-produto">
 
 <br> 
-<details>
 <summary><strong>:calendar: Tabela de User Stories</strong></summary>
 
 | Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
@@ -76,9 +77,10 @@ de tecnologia.
 | 10   | Média      | Como usuário, quero que o sistema seja ajustado com base nos feedbacks e nas interações reais, para que o bot evolua e forneça respostas mais consistentes e valiosas ao longo do tempo. | 3 pontos | 3      | RF3                  |
 | 11   | Alta       | Como usuário, quero uma interface intuitiva e fácil de usar, com respostas organizadas e de fácil leitura, para que eu possa obter insights de forma prática e sem dificuldades técnicas. | 8 pontos | 3      | RNF1                 |
 
-</details>
 
 <br> 
+
+<span id="equipe">
 
   ## :clipboard: Equipe
 
@@ -94,6 +96,6 @@ de tecnologia.
 |**Rita Hecht**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ritahecht)|
 |**Nicholas Guilherme**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)|
 |**Víctor Henrique**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)|
-|**William da Silva**|Developer Team|[![](https://github.com/William2819/William2819)|
+|**William da Silva**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/William2819/William2819)|
 
 <br>
