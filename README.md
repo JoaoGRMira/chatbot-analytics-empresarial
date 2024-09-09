@@ -75,7 +75,8 @@ de tecnologia.
 <br>
 
 <span id="sprints">
-# :rocket: Sprint 1
+  
+## :rocket: Sprint 1
 
 <details>
   <summary><strong>:page_facing_up: Sprint 1 - Detalhes</strong></summary>
@@ -84,7 +85,7 @@ de tecnologia.
 
   ## :pushpin: Critérios de Aceitação
 
-  ### User Story 1
+  ## User Story 1
   - **Descrição:** Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto.
   - **Critérios de Aceitação:**
     - O bot deve processar comentários de clientes automaticamente.
@@ -92,21 +93,21 @@ de tecnologia.
     - Suporte a diferentes formatos de comentários.
     - Relatórios devem refletir a opinião geral sobre o produto.
 
-  ### User Story 2
+  ## User Story 2
   - **Descrição:** Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores.
   - **Critérios de Aceitação:**
     - O sistema deve categorizar as avaliações por produto.
     - Os dados devem ser estruturados e fáceis de acessar.
     - Deve ser possível associar múltiplas avaliações a um produto em um painel.
 
-  ### User Story 3
+  ## User Story 3
   - **Descrição:** Como usuário, quero que o bot utilize inteligência artificial para entender a satisfação dos clientes com base nas avaliações e me forneça insights concisos sobre o feedback, para que eu possa tomar decisões mais informadas.
   - **Critérios de Aceitação:**
     - O bot deve usar IA para interpretar a satisfação dos clientes.
     - O sistema deve fornecer insights concisos e acionáveis.
     - A IA deve evitar respostas imprecisas.
 
-  ### User Story 4
+  ## User Story 4
   - **Descrição:** Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado.
   - **Critérios de Aceitação:**
     - O sistema deve armazenar informações de forma eficiente.
@@ -115,7 +116,7 @@ de tecnologia.
 
   <br>
 
-  ## :dart: Backlog - Sprint 1
+  ## Backlog - Sprint 1
 
   - **User Story 1:** 5 pontos (Prioridade: Alta)
   - **User Story 2:** 3 pontos (Prioridade: Média)
