@@ -61,7 +61,7 @@ de tecnologia.
 <span id="backlog-do-produto">
 
 <br> 
-<summary><strong>:calendar: Tabela de User Stories</strong></summary>
+<summary><strong>:calendar: </strong></summary>
 
 | Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
 |------|------------|----------------------------------------|--------------------------------|--------|-----------------------|
