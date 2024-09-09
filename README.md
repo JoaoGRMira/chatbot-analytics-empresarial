@@ -81,8 +81,6 @@ de tecnologia.
 
 <br>
 
-
-
 # :rocket: Sprint 1
 
 <details>
@@ -90,80 +88,48 @@ de tecnologia.
 
   <br>
 
-  <details>
-    <summary><strong>Critérios de Aceitação</strong></summary>
+  ## :pushpin: Critérios de Aceitação
 
-    <br>
+  ### User Story 1
+  - **Descrição:** Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto.
+  - **Critérios de Aceitação:**
+    - O bot deve processar comentários de clientes automaticamente.
+    - Relatórios gerados devem ser legíveis e organizados.
+    - Suporte a diferentes formatos de comentários.
+    - Relatórios devem refletir a opinião geral sobre o produto.
 
-    <table>
-      <tr>
-        <th>User Story</th>
-        <th>Critérios de Aceitação</th>
-      </tr>
-      <tr>
-        <td><strong>User Story 1</strong></td>
-        <td>- O bot deve processar comentários de clientes automaticamente.<br>- Relatórios gerados devem ser legíveis e organizados.<br>- Suporte a diferentes formatos de comentários.<br>- Relatórios devem refletir a opinião geral sobre o produto.</td>
-      </tr>
-      <tr>
-        <td><strong>User Story 2</strong></td>
-        <td>- Sistema deve categorizar avaliações por produto.<br>- Dados estruturados e fáceis de acessar.<br>- Múltiplas avaliações associadas a produtos em um painel.</td>
-      </tr>
-      <tr>
-        <td><strong>User Story 3</strong></td>
-        <td>- O bot deve usar IA para interpretar satisfação dos clientes.<br>- Sistema deve fornecer insights concisos.<br>- IA deve evitar respostas imprecisas.</td>
-      </tr>
-      <tr>
-        <td><strong>User Story 4</strong></td>
-        <td>- Sistema deve armazenar informações de forma eficiente.<br>- Tempo de resposta ao consultar dados: inferior a 2 segundos.<br>- Dados armazenados devem ser recuperados sem perda.</td>
-      </tr>
-    </table>
+  ### User Story 2
+  - **Descrição:** Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores.
+  - **Critérios de Aceitação:**
+    - O sistema deve categorizar as avaliações por produto.
+    - Os dados devem ser estruturados e fáceis de acessar.
+    - Deve ser possível associar múltiplas avaliações a um produto em um painel.
 
-  </details>
+  ### User Story 3
+  - **Descrição:** Como usuário, quero que o bot utilize inteligência artificial para entender a satisfação dos clientes com base nas avaliações e me forneça insights concisos sobre o feedback, para que eu possa tomar decisões mais informadas.
+  - **Critérios de Aceitação:**
+    - O bot deve usar IA para interpretar a satisfação dos clientes.
+    - O sistema deve fornecer insights concisos e acionáveis.
+    - A IA deve evitar respostas imprecisas.
+
+  ### User Story 4
+  - **Descrição:** Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado.
+  - **Critérios de Aceitação:**
+    - O sistema deve armazenar informações de forma eficiente.
+    - O tempo de resposta ao consultar dados deve ser inferior a 2 segundos.
+    - Os dados armazenados devem ser recuperados sem perda.
 
   <br>
 
-  <details>
-    <summary><strong>Backlog - Sprint 1</strong></summary>
+  ## :dart: Backlog - Sprint 1
 
-    <br>
+  - **User Story 1:** 5 pontos (Prioridade: Alta)
+  - **User Story 2:** 3 pontos (Prioridade: Média)
+  - **User Story 3:** 8 pontos (Prioridade: Alta)
 
-    <table>
-      <tr>
-        <th>Rank</th>
-        <th>User Story</th>
-        <th>Estimativa</th>
-        <th>Sprint</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>User Story 1</td>
-        <td>5 pontos</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>User Story 2</td>
-        <td>3 pontos</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>User Story 3</td>
-        <td>8 pontos</td>
-        <td>1</td>
-      </tr>
-    </table>
-
-  </details>
+  **Total de Pontos na Sprint:** 16 pontos
 
 </details>
-
-
-
-
-
-
-
 
 
 
