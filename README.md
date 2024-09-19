@@ -3,19 +3,23 @@
 <h1 align="center">API 6º Semestre 2024-2 - Equipe Átomo</h1>
 
 <p align="center">
+  <a href ="#gitflow">Gitflow</a>  • 
+  <a href ="#estrutura-branch">Estrutura da Branch</a>  • 
+  <a href ="#padroes-commit">Padrões de Commit</a>  •
   <a href ="#projeto"> Projeto </a>  •
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#prototipo"> Protótipo </a>  • 
   <a href ="#backlogs"> Backlog do Produto </a> • 
   <a href ="#sprints">Sprints</a> •
   <a href ="#equipe">Equipe</a> 
+   
   
 
 <br>
 
-<span id="estrutura-branch">
+<span id="gitflow">
   
-## :clipboard: Estrutura da branch
+## :chart_with_upwards_trend: Gitflow
  
 
   **Introdução ao Gitflow**
@@ -47,13 +51,15 @@
   
   Após uma release ser mergeada em master, uma tag de versão é criada para documentar o ponto de release no histórico do projeto.
 
+ <img src="https://github.com/atomofatec/API-DOMROCK/blob/main/img/gitflow.png">
+
 <br>
 
 <br>
 
 <span id="estrutura-branch">
   
-## :clipboard: Estrutura da branch
+## :bookmark_tabs: Estrutura da branch
  
 
     Todas as branches que introduzem novas funcionalidades ao projeto devem seguir a estrutura:
@@ -77,7 +83,7 @@
 
 <span id="padroes-commit">
   
-## :clipboard: Padrões de commit
+## :black_nib: Padrões de commit
  
 
     Estrutura do Commit:
