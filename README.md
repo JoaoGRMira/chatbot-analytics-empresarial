@@ -17,97 +17,6 @@
 
 <br>
 
-<span id="gitflow">
-  
-## :chart_with_upwards_trend: Gitflow
- 
-
-  **Introdução ao Gitflow**
-    
-  O Gitflow é um modelo escalável de gerenciamento de branches para projetos Git. Ele é amplamente utilizado em desenvolvimento de software para gerenciar diferentes linhas de desenvolvimento, tornando os processos de release mais claros e gerenciáveis.
-  
-  **Branches Principais**
-  - **Master:** A branch master armazena o código oficial de release do projeto. Toda nova versão consolidada e testada é mergeada nessa branch e, posteriormente, taggeada com uma versão.
-  - **Develop:** A branch develop serve como uma branch de integração para features. Ela contém o estado mais recente das mudanças destinadas à próxima release.
-  
-  **Branches de Suporte**
-  - **Feature:** Branches feature são criadas a partir da branch develop. Cada branch feature é destinada ao desenvolvimento de uma funcionalidade específica ou correções e são mergeadas de volta à develop quando a funcionalidade está completa.
-  - **Release:** Branches release são criadas a partir da branch develop. Estas branches são preparações para uma nova release de produção. Permitem ajustes finais e correções de bugs que não são enviadas à branch develop durante esse período. Quando a release está pronta para ser lançada, ela é mergeada em master e develop.
-  - **Hotfix:** Branches hotfix são criadas a partir da branch master. São usadas para correções rápidas em releases de produção. Uma vez completadas, elas são mergeadas tanto em master quanto em develop para garantir que as correções sejam integradas em futuras releases.
-  
-  **Fluxo de Trabalho**
-  - **Desenvolvimento de Features:**
-  Inicia-se criando uma branch feature a partir de develop.
-  Após a conclusão da feature, realiza-se um pull request para a develop.
-  - **Preparação de Release:**
-  Cria-se uma branch release a partir de develop.
-  Realizam-se testes e ajustes necessários.
-  Conclui-se mergeando a release em master e também de volta à develop com incremento de versão.
-  - **Correções de Hotfix:**
-  Identificado um bug em produção, cria-se uma branch hotfix a partir de master.
-  Após a correção, o hotfix é mergeado em master e em develop.
-  
-  **Tags**
-  
-  Após uma release ser mergeada em master, uma tag de versão é criada para documentar o ponto de release no histórico do projeto.
-
- <img src="https://github.com/atomofatec/API-DOMROCK/blob/main/img/gitflow.png">
-
-<br>
-
-<br>
-
-<span id="estrutura-branch">
-  
-## :bookmark_tabs: Estrutura da branch
- 
-
-    Todas as branches que introduzem novas funcionalidades ao projeto devem seguir a estrutura:
-
-    feature/[descricao-da-feature (nome da task)]
-    
-    Componentes:
-      Prefixo "feature/": Indica que a branch está relacionada ao desenvolvimento de uma nova funcionalidade.
-      Descrição da Feature: Um nome curto e descritivo, com palavras separadas por traços ("-"). A descrição deve ser clara e indicar a finalidade da branch.
-    
-    Exemplos:
-      feature/criacao-dashboard
-      feature/integracao-api-pagamento
-      feature/melhoria-performance
-    
-    OBS: A nomeação do pull request terá que seguir o mesmo padrão da criação da branch.
-
-<br>
-
-<br>
-
-<span id="padroes-commit">
-  
-## :black_nib: Padrões de commit
- 
-
-    Estrutura do Commit:
-      <Sprint X> <tipo>: <descrição curta da mudança>
-      <Sprint X>: Refere-se ao número da sprint em que a mudança foi implementada.
-          Exemplos:  <Sprint I>, <Sprint II>.
-  
-    <tipo>: Indica o tipo de mudança realizada. 
-          Exemplos:
-            feat: Adição de uma nova funcionalidade.
-            fix: Correção de bugs ou erros.
-            chore: Tarefas de manutenção (como atualizações de dependências).
-            refactor: Refatoração de código sem alteração de funcionalidade.
-  
-    <descrição>: Uma breve descrição da mudança realizada.
-          Exemplos:
-            <Sprint I> feat: adicionar funcionalidade de pesquisa
-            <Sprint II> fix: corrigir erro no cálculo de frete
-            <Sprint III> chore: atualizar dependências do projeto
-
-<br>
-
-<br>
-
 <span id="projeto">
   
 ## :clipboard: O Projeto
@@ -221,6 +130,102 @@ de tecnologia.
 </details>
 
 
+
+<br>
+
+<details>
+  <summary><strong>:page_facing_up: Estrutura do Código</strong></summary>
+<br>  
+<span id="gitflow">
+  
+## :chart_with_upwards_trend: Gitflow
+ 
+
+  **Introdução ao Gitflow**
+    
+  O Gitflow é um modelo escalável de gerenciamento de branches para projetos Git. Ele é amplamente utilizado em desenvolvimento de software para gerenciar diferentes linhas de desenvolvimento, tornando os processos de release mais claros e gerenciáveis.
+  
+  **Branches Principais**
+  - **Master:** A branch master armazena o código oficial de release do projeto. Toda nova versão consolidada e testada é mergeada nessa branch e, posteriormente, taggeada com uma versão.
+  - **Develop:** A branch develop serve como uma branch de integração para features. Ela contém o estado mais recente das mudanças destinadas à próxima release.
+  
+  **Branches de Suporte**
+  - **Feature:** Branches feature são criadas a partir da branch develop. Cada branch feature é destinada ao desenvolvimento de uma funcionalidade específica ou correções e são mergeadas de volta à develop quando a funcionalidade está completa.
+  - **Release:** Branches release são criadas a partir da branch develop. Estas branches são preparações para uma nova release de produção. Permitem ajustes finais e correções de bugs que não são enviadas à branch develop durante esse período. Quando a release está pronta para ser lançada, ela é mergeada em master e develop.
+  - **Hotfix:** Branches hotfix são criadas a partir da branch master. São usadas para correções rápidas em releases de produção. Uma vez completadas, elas são mergeadas tanto em master quanto em develop para garantir que as correções sejam integradas em futuras releases.
+  
+  **Fluxo de Trabalho**
+  - **Desenvolvimento de Features:**
+  Inicia-se criando uma branch feature a partir de develop.
+  Após a conclusão da feature, realiza-se um pull request para a develop.
+  - **Preparação de Release:**
+  Cria-se uma branch release a partir de develop.
+  Realizam-se testes e ajustes necessários.
+  Conclui-se mergeando a release em master e também de volta à develop com incremento de versão.
+  - **Correções de Hotfix:**
+  Identificado um bug em produção, cria-se uma branch hotfix a partir de master.
+  Após a correção, o hotfix é mergeado em master e em develop.
+  
+  **Tags**
+  
+  Após uma release ser mergeada em master, uma tag de versão é criada para documentar o ponto de release no histórico do projeto.
+
+ <img src="https://github.com/atomofatec/API-DOMROCK/blob/main/img/gitflow.png">
+
+<br>
+
+<br>
+
+<span id="estrutura-branch">
+  
+## :bookmark_tabs: Estrutura da branch
+ 
+
+    Todas as branches que introduzem novas funcionalidades ao projeto devem seguir a estrutura:
+
+    feature/[descricao-da-feature (nome da task)]
+    
+    Componentes:
+      Prefixo "feature/": Indica que a branch está relacionada ao desenvolvimento de uma nova funcionalidade.
+      Descrição da Feature: Um nome curto e descritivo, com palavras separadas por traços ("-"). A descrição deve ser clara e indicar a finalidade da branch.
+    
+    Exemplos:
+      feature/criacao-dashboard
+      feature/integracao-api-pagamento
+      feature/melhoria-performance
+    
+    OBS: A nomeação do pull request terá que seguir o mesmo padrão da criação da branch.
+
+<br>
+
+<br>
+
+<span id="padroes-commit">
+  
+## :black_nib: Padrões de commit
+ 
+
+    Estrutura do Commit:
+      <Sprint X> <tipo>: <descrição curta da mudança>
+      <Sprint X>: Refere-se ao número da sprint em que a mudança foi implementada.
+          Exemplos:  <Sprint I>, <Sprint II>.
+  
+    <tipo>: Indica o tipo de mudança realizada. 
+          Exemplos:
+            feat: Adição de uma nova funcionalidade.
+            fix: Correção de bugs ou erros.
+            chore: Tarefas de manutenção (como atualizações de dependências).
+            refactor: Refatoração de código sem alteração de funcionalidade.
+  
+    <descrição>: Uma breve descrição da mudança realizada.
+          Exemplos:
+            <Sprint I> feat: adicionar funcionalidade de pesquisa
+            <Sprint II> fix: corrigir erro no cálculo de frete
+            <Sprint III> chore: atualizar dependências do projeto
+
+<br>
+
+</details>
 
 <br>
 
