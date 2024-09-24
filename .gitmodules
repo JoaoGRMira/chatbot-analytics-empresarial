@@ -1,9 +1,9 @@
 [submodule "BACK-DOMROCK"]
 	path = BACK-DOMROCK
-	url = https://github.com/atomofatec/BACK-DOMROCK
+	url = https://github.com/atomofatec/BACK-DOMROCK.git
 [submodule "FRONT-DOMROCK"]
 	path = FRONT-DOMROCK
-	url = https://github.com/atomofatec/FRONT-DOMROCK
+	url = https://github.com/atomofatec/FRONT-DOMROCK.git
 [submodule "DATASET-DOMROCK"]
 	path = DATASET-DOMROCK
 	url = https://github.com/atomofatec/DATASET-DOMROCK.git
