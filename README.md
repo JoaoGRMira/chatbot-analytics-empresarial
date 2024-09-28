@@ -3,9 +3,6 @@
 <h1 align="center">API 6º Semestre 2024-2 - Equipe Átomo</h1>
 
 <p align="center">
-  <a href ="#gitflow">Gitflow</a>  • 
-  <a href ="#estrutura-branch">Estrutura da Branch</a>  • 
-  <a href ="#padroes-commit">Padrões de Commit</a>  •
   <a href ="#projeto"> Projeto </a>  •
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#prototipo"> Protótipo </a>  • 
