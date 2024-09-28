@@ -123,8 +123,9 @@
   ## Backlog - Sprint 1
 
   - **User Story 1:** 5 pontos (Prioridade: Alta)
-  - **User Story 2:** 3 pontos (Prioridade: Média)
+  - **User Story 2:** 3 pontos (Prioridade: Alta)
   - **User Story 3:** 8 pontos (Prioridade: Alta)
+  - **User Story 4:** 2 pontos (Prioridade: Alta)
 
 
 </details>
