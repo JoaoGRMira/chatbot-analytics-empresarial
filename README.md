@@ -23,7 +23,7 @@
 
 > **Status do Projeto: Em andamento** 
 
-- Desenvolver um chat bot baseado em IA generativa para que possa receber perguntas, buscar a resposta na base de dados de comentários de clientes e apresentar na forma de linguagem natural.
+- O projeto consiste no desenvolvimento de um chatbot baseado em Inteligência Artificial generativa, voltado para a análise de dados comerciais e feedbacks de clientes. O principal objetivo é facilitar a interpretação dos dados qualitativos (comentários e depoimentos de consumidores) sem a necessidade de utilizar dashboards complexos ou gráficos. O chatbot será capaz de responder perguntas específicas sobre o desempenho de produtos e a opinião dos consumidores, oferecendo respostas em linguagem natural e de forma clara, objetiva e direta.
 
 <br>
 
@@ -32,15 +32,15 @@
 ## :dart: Proposta
 
 > **Requisitos Funcionais**
-- Desenvolver um pipeline de processamento de dados para banco de vetor;
-- Desenvolver um agente para engenharia de prompt em LLM;
-- Desenvolver uma interface de chatbot integrado com agente de LLM
+- RF1 - Permitir consultas diretas sobre dados comerciais, como adesão de produtos em diferentes regiões, respondendo de forma clara e objetiva.;
+- RF2 - Integração com a base de dados(B2W) comerciais da empresa para capturar informações atualizadas sobre vendas e tendências regionais;
+- RF3 - Implementar uma interface de interação intuitiva para que os usuários possam fazer perguntas e receber respostas sem a necessidade de conhecimento técnico.
 
 <br>
  
 > **Requisitos Não Funcionais**
-- Um vídeo tutorial para demonstrar como usar para usuários que não tem domínio 
-de tecnologia.
+- RNF1 - Escalabilidade e Desempenho: Garantir que o sistema suporte grandes volumes de consultas simultâneas, respondendo rapidamente sem comprometer a experiência do usuário;
+- RNF2 - Disponibilidade de documentação para usabilidade: Garantir a disponibilidade de um vídeo demostrando o uso do sistema.
 
 <br>
 
@@ -66,10 +66,10 @@ de tecnologia.
 | 1    | Alta       | Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto. | 5 | 1      | RF1                  |
 | 2    | Alta      | Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores. | 3 | 1      | RF1                  |
 | 3    | Alta       | Como usuário, quero que o bot utilize inteligência artificial para entender a satisfação dos clientes com base nas avaliações e me forneça insights concisos sobre o feedback, para que eu possa tomar decisões mais informadas. | 8 | 1      | RF2                  |
-| 4    | Alta      | Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado. | 2 | 1      | RF3                  |
+| 4    | Alta      | Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado. | 2 | 1      | RNF1                  |
 | 5    | Média       | Como usuário, quero poder interagir com o bot fazendo perguntas sobre avaliações de produtos e receber respostas claras e diretas, baseadas nas opiniões dos clientes, para facilitar minha análise. | 5 | 2      | RF1                  |
 | 6    | Média      | Como usuário, quero acessar o bot através de uma interface web amigável, onde posso digitar perguntas de forma simples e receber respostas naturais, para que minha experiência de uso seja fácil e eficiente. | 3 | 2      | RF3                  |
-| 7    | Média       | Como usuário, quero que o bot consulte a base de dados de maneira rápida e me forneça informações precisas, para que eu possa tomar decisões sobre quais produtos merecem mais ou menos investimento. | 8 | 2      | RF1                  |
+| 7    | Média       | Como usuário, quero que o bot consulte a base de dados de maneira rápida e me forneça informações precisas, para que eu possa tomar decisões sobre quais produtos merecem mais ou menos investimento. | 8 | 2      | RF2                  |
 | 8    | Média      | Como usuário, quero que o bot combine as respostas com base nos dados armazenados para fornecer insights mais precisos sobre o desempenho de cada produto, para que eu tenha uma visão mais completa. | 2 | 2      | RF2                  |
 | 9    | Baixa       | Como usuário, quero que o bot me forneça respostas rápidas e precisas com base em diferentes fontes de dados, independentemente do modelo de IA usado, para que eu confie nos resultados apresentados. | 5 | 3      | RF2                  |
 | 10   | Baixa      | Como usuário, quero que o sistema seja ajustado com base nos feedbacks e nas interações reais, para que o bot evolua e forneça respostas mais consistentes e valiosas ao longo do tempo. | 3 | 3      | RF3                  |
