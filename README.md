@@ -101,13 +101,6 @@
     - Deve ser possível associar múltiplas avaliações a um produto em um painel.
 
   ## User Story 3
-  - **Descrição:** Como usuário, quero que o bot utilize inteligência artificial para entender a satisfação dos clientes com base nas avaliações e me forneça insights concisos sobre o feedback, para que eu possa tomar decisões mais informadas.
-  - **Critérios de Aceitação:**
-    - O bot deve usar IA para interpretar a satisfação dos clientes.
-    - O sistema deve fornecer insights concisos e acionáveis.
-    - A IA deve evitar respostas imprecisas.
-
-  ## User Story 4
   - **Descrição:** Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado.
   - **Critérios de Aceitação:**
     - O sistema deve armazenar informações de forma eficiente.
@@ -116,17 +109,7 @@
 
   <br>
 
-  ## Backlog - Sprint 1
-
-  - **User Story 1:** 5 pontos (Prioridade: Alta)
-  - **User Story 2:** 3 pontos (Prioridade: Alta)
-  - **User Story 3:** 8 pontos (Prioridade: Alta)
-  - **User Story 4:** 2 pontos (Prioridade: Alta)
-
-
 </details>
-
-
 
 <br>
 
@@ -227,9 +210,12 @@
 <br>
 
 <details>
+  
+<summary><strong>:page_facing_up: Equipe</strong></summary>
+
 <span id="equipe">
 
-  ## :clipboard: Equipe
+  ## :clipboard: Scrum Team
 
 <br>
 
