@@ -28,16 +28,26 @@
   
 ## :dart: Proposta
 
-> **Requisitos Funcionais**
-- RF1 - Permitir consultas diretas sobre dados comerciais, como adesão de produtos em diferentes regiões, respondendo de forma clara e objetiva.;
-- RF2 - Integração com a base de dados(B2W) comerciais da empresa para capturar informações atualizadas sobre vendas e tendências regionais;
-- RF3 - Implementar uma interface de interação intuitiva para que os usuários possam fazer perguntas e receber respostas sem a necessidade de conhecimento técnico.
+**Requisitos Funcionais**
+- RF1: Consulta de descrições de produtos:  
+    Permitir que os usuários consultem descrições detalhadas dos produtos disponíveis.
+- RF2: Análise de sentimento dos produtos:  
+    Realizar análise de sentimento nas avaliações dos produtos para identificar percepções positivas, negativas e neutras.
+- RF3: Análise de avaliações dos produtos:  
+    Oferecer insights sobre as avaliações dos produtos, incluindo médias e tendências ao longo do tempo.
+- RF4: Análise de perfis de consumo por Idade e por Sexo:  
+    Examinar padrões de consumo e preferências de produtos com base na faixa etária dos usuários e com o sexo dos usuários.
+- RF5: Análise de Preferências por Região e por Categoria:  
+    Consultar a variação nas escolhas de produtos com base na localização dos usuários e explorar as melhores opções em categorias específicas, com informações sobre os produtos mais vendidos e avaliações, auxiliando os clientes na tomada de decisões informadas na hora da compra.
+
 
 <br>
  
 > **Requisitos Não Funcionais**
-- RNF1 - Escalabilidade e Desempenho: Garantir que o sistema suporte grandes volumes de consultas simultâneas, respondendo rapidamente sem comprometer a experiência do usuário;
-- RNF2 - Disponibilidade de documentação para usabilidade: Garantir a disponibilidade de um vídeo demostrando o uso do sistema.
+- RNF1: BD Vetorial ChromaDB, FAISS ou outro
+- RNF2: Modelos LLM de uso público do Huggingface
+- RNF3: Framework Langchain
+- RNF4: Vídeo-tutorial
 
 <br>
 
@@ -76,16 +86,18 @@
 
 <span id="sprints">
   
-## :rocket: Sprint 1
+## :rocket: Entrega das Sprints
 
 <details>
-  <summary><strong>:page_facing_up: Sprint 1 - Detalhes</strong></summary>
+  <summary><strong> Sprint 1 </strong></summary>
+
+  ## :dart: MVP
+  Nesta sprint, focamos em entregar o MVP do nosso chatbot, permitindo consultas diretas sobre as avaliações de produtos da base de dados do Hugging Face. 
 
   <br>
 
-  ## :pushpin: Critérios de Aceitação
-
-  ## User Story 1
+  ## :dart: DoR + Critérios de Aceitação
+  **USER STORY 1**
   - **Descrição:** Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto.
   - **Critérios de Aceitação:**
     - O bot deve processar comentários de clientes automaticamente.
@@ -93,14 +105,18 @@
     - Suporte a diferentes formatos de comentários.
     - Relatórios devem refletir a opinião geral sobre o produto.
 
-  ## User Story 2
+  <br>
+  
+   **USER STORY 2**
   - **Descrição:** Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores.
   - **Critérios de Aceitação:**
     - O sistema deve categorizar as avaliações por produto.
     - Os dados devem ser estruturados e fáceis de acessar.
     - Deve ser possível associar múltiplas avaliações a um produto em um painel.
 
-  ## User Story 3
+  <br>
+  
+  **USER STORY 3**
   - **Descrição:** Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado.
   - **Critérios de Aceitação:**
     - O sistema deve armazenar informações de forma eficiente.
@@ -108,8 +124,32 @@
     - Os dados armazenados devem ser recuperados sem perda.
 
   <br>
+  
+  ## :dart: Entrega
+  [Clique aqui e assista ao vídeo da entrega no YouTube](https://www.youtube.com/watch?v=dKhNMwNdgP8&t=16s)
+
+  <br>
 
 </details>
+
+<br>
+
+<details>
+  <summary><strong> Sprint 2 </strong></summary>
+
+  ## :dart: MVP
+  ... 
+
+  <br>
+  
+  ## :dart: Entrega
+  [Clique aqui e assista ao vídeo da entrega no YouTube]()
+
+  <br>
+
+</details>
+
+
 
 <br>
 
@@ -209,9 +249,12 @@
 
 <br>
 
-<details>
   
-<summary><strong>:page_facing_up: Equipe</strong></summary>
+## Equipe
+
+<details>
+
+<summary><strong>Equipe</strong></summary>
 
 <span id="equipe">
 
