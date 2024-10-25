@@ -30,24 +30,24 @@
 
 **Requisitos Funcionais**
 - RF1: Consulta de descrições de produtos:  
-    Permitir que os usuários consultem descrições detalhadas dos produtos disponíveis.
+    - Permitir que os usuários consultem descrições detalhadas dos produtos disponíveis.
 - RF2: Análise de sentimento dos produtos:  
-    Realizar análise de sentimento nas avaliações dos produtos para identificar percepções positivas, negativas e neutras.
+    - Realizar análise de sentimento nas avaliações dos produtos para identificar percepções positivas, negativas e neutras.
 - RF3: Análise de avaliações dos produtos:  
-    Oferecer insights sobre as avaliações dos produtos, incluindo médias e tendências ao longo do tempo.
+    - Oferecer insights sobre as avaliações dos produtos, incluindo médias e tendências ao longo do tempo.
 - RF4: Análise de perfis de consumo por Idade e por Sexo:  
-    Examinar padrões de consumo e preferências de produtos com base na faixa etária dos usuários e com o sexo dos usuários.
+    - Examinar padrões de consumo e preferências de produtos com base na faixa etária dos usuários e com o sexo dos usuários.
 - RF5: Análise de Preferências por Região e por Categoria:  
-    Consultar a variação nas escolhas de produtos com base na localização dos usuários e explorar as melhores opções em categorias específicas, com informações sobre os produtos mais vendidos e avaliações, auxiliando os clientes na tomada de decisões informadas na hora da compra.
+    - Consultar a variação nas escolhas de produtos com base na localização dos usuários e explorar as melhores opções em categorias específicas, com informações sobre os produtos mais vendidos e avaliações, auxiliando os clientes na tomada de decisões informadas na hora da compra.
 
 
 <br>
  
 > **Requisitos Não Funcionais**
-- RNF1: BD Vetorial ChromaDB, FAISS ou outro
-- RNF2: Modelos LLM de uso público do Huggingface
-- RNF3: Framework Langchain
-- RNF4: Vídeo-tutorial
+- RNF1 - BD Vetorial ChromaDB 
+- RNF2 - Modelos LLM: llama3-8b-8192 - LLM de geração de texto, sentence-transformers/all-MiniLM-L6-v2 - LLM para geração de embeddings 
+- RNF3 - Framework Langchain 
+- RNF4 - Vídeo-tutorial 
 
 <br>
 
@@ -70,16 +70,14 @@
 
 | Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
 |------|------------|----------------------------------------|--------------------------------|--------|-----------------------|
-| 1    | Alta       | Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto. | 5 | 1      | RF1                  |
-| 2    | Alta      | Como usuário, quero que o sistema organize os dados de avaliações, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores. | 3 | 1      | RF1                  |
-| 3    | Alta      | Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado. | 2 | 1      | RNF1                  |
-| 4    | Média       | Como usuário, quero poder interagir com o bot fazendo perguntas sobre avaliações de produtos e receber respostas claras e diretas, baseadas nas opiniões dos clientes, para facilitar minha análise. | 5 | 2      | RF1                  |
-| 5    | Média      | Como usuário, quero acessar o bot através de uma interface web amigável, onde posso digitar perguntas de forma simples e receber respostas naturais, para que minha experiência de uso seja fácil e eficiente. | 3 | 2      | RF3                  |
-| 6    | Média       | Como usuário, quero que o bot consulte a base de dados de maneira rápida e me forneça informações precisas, para que eu possa tomar decisões sobre quais produtos merecem mais ou menos investimento. | 8 | 2      | RF2                  |
-| 7    | Média      | Como usuário, quero que o bot combine as respostas com base nos dados armazenados para fornecer insights mais precisos sobre o desempenho de cada produto, para que eu tenha uma visão mais completa. | 2 | 2      | RF2                  |
-| 8    | Baixa       | Como usuário, quero que o bot me forneça respostas rápidas e precisas com base em diferentes fontes de dados, independentemente do modelo de IA usado, para que eu confie nos resultados apresentados. | 5 | 3      | RF2                  |
-| 9   | Baixa      | Como usuário, quero que o sistema seja ajustado com base nos feedbacks e nas interações reais, para que o bot evolua e forneça respostas mais consistentes e valiosas ao longo do tempo. | 3 | 3      | RF3                  |
-| 10   | Baixa       | Como usuário, quero uma interface intuitiva e fácil de usar, com respostas organizadas e de fácil leitura, para que eu possa obter insights de forma prática e sem dificuldades técnicas. | 8 | 3      | RNF1                 |
+| 1    | Alta       | Como gerente de analytics, quero que o chatbot organize os dados de avaliações, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões dos consumidores e assim possa criar estratégias sobre quais produtos devo investir.  | 5 | 1      | RF3                  |
+| 2    | Alta      | Como gerente de analytics, quero interagir com o chatbot com perguntas relacionadas a avaliações de produtos e receber respostas claras e diretas, baseadas nas reviews dos clientes, para diminuir o tempo gasto com análises manuais.  | 3 | 1      | RF3, RNF2                  |
+| 3    | Alta      | Como gerente de analytics, quero que o chatbot seja treinado com base nos dados de reviews armazenados para fornecer insights precisos sobre o desempenho dos produtos, para que eu tenha uma visão estratégica de quais medidas tomar com base nas opiniões dos consumidores.  | 2 | 1      | RF3, RNF1                  |
+| 4    | Média       | Como gerente de analytics, quero que o chatbot entenda e processe os comentários dos clientes para gerar análises relevantes, para que eu possa avaliar a opinião geral sobre um produto e tomar decisões administrativas sobre eles. | 5 | 2      | RF2                  |
+| 5    | Média      | Como gerente de analytics, quero que o chatbot seja ágil e preciso na hora de fornecer respostas para que eu receba resultados confiáveis sobre os produtos avaliados.  | 3 | 2      | RNF1, RNF2                  |
+| 6    | Baixa       | Como gerente de analytics, quero acessar o chatbot através de uma interface web amigável, onde posso digitar perguntas sobre produtos de forma simples e receber respostas naturais relacionadas às avaliações. | 8 | 3      | RF3, RNF3                  |
+| 7    | Baixa      | Como gerente de analytics, quero que o chatbot examine padrões de consumo e preferências de produtos com base na faixa etária e sexo dos usuários. | 2 | 3      | RF4                  |
+| 8    | Baixa       | Como gerente de analytics, quero consultar a variação nas escolhas de produtos por região e categoria, fornecendo informações sobre os produtos mais vendidos e avaliados para ajudar na tomada de decisões.  | 5 | 3      | RF5                  |
 
 
 <br>
