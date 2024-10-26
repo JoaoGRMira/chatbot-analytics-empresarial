@@ -94,32 +94,31 @@
 
   <br>
 
-  ## :dart: DoR + Critérios de Aceitação
+  ## :dart: US + Critérios de Aceitação
   **USER STORY 1**
-  - **Descrição:** Como usuário do sistema, quero que o bot entenda e processe os comentários dos clientes para gerar relatórios relevantes, para que eu possa avaliar a opinião geral sobre um produto.
+  - **Descrição:** Como gerente de analytics, quero que o chatbot organize os dados de avaliações, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões dos consumidores e assim possa criar estratégias sobre quais produtos devo investir.
   - **Critérios de Aceitação:**
-    - O bot deve processar comentários de clientes automaticamente.
-    - Relatórios gerados devem ser legíveis e organizados.
-    - Suporte a diferentes formatos de comentários.
-    - Relatórios devem refletir a opinião geral sobre o produto.
+    - O chatbot deve conseguir associar cada avaliação ao produto correspondente, garantindo que as opiniões sejam classificadas corretamente.
+    - O chatbot deve apresentar as informações de forma estruturada e organizada, facilitando a visualização dos dados por produto.
+    - As associações feitas pelo chatbot devem ser precisas, com uma taxa de erro inferior a 5%.
 
   <br>
   
    **USER STORY 2**
-  - **Descrição:** Como usuário, quero que o sistema organize os dados de avaliações de maneira clara, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões de consumidores.
+  - **Descrição:** Como gerente de analytics, quero interagir com o chatbot com perguntas relacionadas a avaliações de produtos e receber respostas claras e diretas, baseadas nas reviews dos clientes, para diminuir o tempo gasto com análises manuais.
   - **Critérios de Aceitação:**
-    - O sistema deve categorizar as avaliações por produto.
-    - Os dados devem ser estruturados e fáceis de acessar.
-    - Deve ser possível associar múltiplas avaliações a um produto em um painel.
+    - O chatbot deve ser capaz de responder perguntas relacionadas a avaliações de produtos com clareza e objetividade, sem necessidade de ajustes adicionais.
+    - As respostas devem ser baseadas exclusivamente nos dados de reviews armazenados, sem interpretações que distorçam as opiniões dos consumidores.
+    - O tempo de resposta do chatbot deve ser inferior a 3 segundos por pergunta, garantindo agilidade no processo de análise.
 
   <br>
   
   **USER STORY 3**
-  - **Descrição:** Como usuário, quero que o bot armazene informações de forma eficiente, para que o sistema seja rápido ao consultar e retornar dados quando solicitado.
+  - **Descrição:** Como gerente de analytics, quero que o chatbot seja treinado com base nos dados de reviews armazenados para fornecer insights precisos sobre o desempenho dos produtos, para que eu tenha uma visão estratégica de quais medidas tomar com base nas opiniões dos consumidores.
   - **Critérios de Aceitação:**
-    - O sistema deve armazenar informações de forma eficiente.
-    - O tempo de resposta ao consultar dados deve ser inferior a 2 segundos.
-    - Os dados armazenados devem ser recuperados sem perda.
+    - O chatbot deve ser treinado com uma base de dados de reviews que permita fornecer insights detalhados e precisos sobre o desempenho de produtos.
+    - Os insights gerados devem incluir análises de tendências e pontos críticos dos produtos, baseados nas avaliações dos consumidores.
+    - A precisão dos insights gerados pelo chatbot deve ser de, no mínimo, 90%, conforme verificado em um conjunto de dados de teste.
 
   <br>
   
@@ -136,7 +135,27 @@
   <summary><strong> Sprint 2 </strong></summary>
 
   ## :dart: MVP
-  ... 
+  Realizar a análise de sentimentos dos produtos de forma mais eficiente, utilizando o ChromaDB e LangChain, gerando descrições de produtos mais coesas com o uso do modelo LLaMA. 
+
+  <br>
+
+  ## :dart: US + Critérios de Aceitação
+  **USER STORY 4**
+  - **Descrição:** Como gerente de analytics, quero que o chatbot entenda e processe os comentários dos clientes para gerar análises relevantes, para que eu possa avaliar a opinião geral sobre um produto e tomar decisões administrativas sobre eles.
+  - **Critérios de Aceitação:**
+    - O chatbot deve ser capaz de interpretar e analisar os comentários dos clientes, identificando sentimentos positivos, negativos e neutros.
+    - As análises geradas devem incluir uma visão geral do sentimento sobre cada produto, permitindo uma avaliação rápida das opiniões.
+    - O sistema deve fornecer métricas que resumam a opinião geral dos consumidores, auxiliando na tomada de decisão administrativa.
+
+  <br>
+  
+   **USER STORY 5**
+  - **Descrição:** Como gerente de analytics, quero que o chatbot seja ágil e preciso na hora de fornecer respostas para que eu receba resultados confiáveis sobre os produtos avaliados.
+  - **Critérios de Aceitação:**
+    - O chatbot deve ser capaz de processar consultas e fornecer respostas em menos de 5 segundos.
+    - A precisão das respostas do chatbot deve ser de, no mínimo, 90%, garantindo que as informações retornadas sejam confiáveis e baseadas nos dados de reviews.
+    - O chatbot deve manter consistência nas respostas, apresentando resultados idênticos para consultas semelhantes ou repetidas.
+
 
   <br>
   
