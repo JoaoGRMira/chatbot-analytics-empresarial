@@ -68,16 +68,16 @@
 
 <br> 
 
-| Rank | Prioridade | User Story | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
-|------|------------|----------------------------------------|--------------------------------|--------|-----------------------|
-| 1    | Alta       | Como gerente de analytics, quero que o chatbot organize os dados de avaliações, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões dos consumidores e assim possa criar estratégias sobre quais produtos devo investir.  | 5 | 1      | RF3                  |
-| 2    | Alta      | Como gerente de analytics, quero interagir com o chatbot com perguntas relacionadas a avaliações de produtos e receber respostas claras e diretas, baseadas nas reviews dos clientes, para diminuir o tempo gasto com análises manuais.  | 3 | 1      | RF3, RNF2                  |
-| 3    | Alta      | Como gerente de analytics, quero que o chatbot seja treinado com base nos dados de reviews armazenados para fornecer insights precisos sobre o desempenho dos produtos, para que eu tenha uma visão estratégica de quais medidas tomar com base nas opiniões dos consumidores.  | 2 | 1      | RF3, RNF1                  |
-| 4    | Média       | Como gerente de analytics, quero que o chatbot entenda e processe os comentários dos clientes para gerar análises relevantes, para que eu possa avaliar a opinião geral sobre um produto e tomar decisões administrativas sobre eles. | 5 | 2      | RF2                  |
-| 5    | Média      | Como gerente de analytics, quero que o chatbot seja ágil e preciso na hora de fornecer respostas para que eu receba resultados confiáveis sobre os produtos avaliados.  | 3 | 2      | RNF1, RNF2                  |
-| 6    | Baixa       | Como gerente de analytics, quero acessar o chatbot através de uma interface web amigável, onde posso digitar perguntas sobre produtos de forma simples e receber respostas naturais relacionadas às avaliações. | 8 | 3      | RF3, RNF3                  |
-| 7    | Baixa      | Como gerente de analytics, quero que o chatbot examine padrões de consumo e preferências de produtos com base na faixa etária e sexo dos usuários. | 2 | 3      | RF4                  |
-| 8    | Baixa       | Como gerente de analytics, quero consultar a variação nas escolhas de produtos por região e categoria, fornecendo informações sobre os produtos mais vendidos e avaliados para ajudar na tomada de decisões.  | 5 | 3      | RF5                  |
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                     | Estimativa (Planning Poker) | Sprint | Requisito do Parceiro |
+| ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ------ | --------------------- |
+| 1    | Alta       | Como gerente de analytics, quero que o chatbot organize os dados de avaliações, associando-os a produtos específicos, para que eu possa ter uma visão estruturada das opiniões dos consumidores e assim possa criar estratégias sobre quais produtos devo investir.            | 5                           | 1      | RF3                   |
+| 2    | Alta       | Como gerente de analytics, quero interagir com o chatbot com perguntas relacionadas a avaliações de produtos e receber respostas claras e diretas, baseadas nas reviews dos clientes, para diminuir o tempo gasto com análises manuais.                                        | 3                           | 1      | RF3, RNF2             |
+| 3    | Alta       | Como gerente de analytics, quero que o chatbot seja treinado com base nos dados de reviews armazenados para fornecer insights precisos sobre o desempenho dos produtos, para que eu tenha uma visão estratégica de quais medidas tomar com base nas opiniões dos consumidores. | 2                           | 1      | RF3, RNF1             |
+| 4    | Média      | Como gerente de analytics, quero que o chatbot entenda e processe os comentários dos clientes para gerar análises relevantes, para que eu possa avaliar a opinião geral sobre um produto e tomar decisões administrativas sobre eles.                                          | 5                           | 2      | RF2                   |
+| 5    | Média      | Como gerente de analytics, quero que o chatbot seja ágil e preciso na hora de fornecer respostas para que eu receba resultados confiáveis sobre os produtos avaliados.                                                                                                         | 3                           | 2      | RNF1, RNF2            |
+| 6    | Baixa      | Como gerente de analytics, quero acessar o chatbot através de uma interface web amigável, onde posso digitar perguntas sobre produtos de forma simples e receber respostas naturais relacionadas às avaliações.                                                                | 8                           | 3      | RF3, RNF3             |
+| 7    | Baixa      | Como gerente de analytics, quero que o chatbot examine padrões de consumo e preferências de produtos com base na faixa etária e sexo dos usuários.                                                                                                                             | 2                           | 3      | RF4                   |
+| 8    | Baixa      | Como gerente de analytics, quero consultar a variação nas escolhas de produtos por região e categoria, fornecendo informações sobre os produtos mais vendidos e avaliados para ajudar na tomada de decisões.                                                                   | 5                           | 3      | RF5                   |
 
 
 <br>
@@ -151,6 +151,29 @@
 
 <br>
 
+ 
+## 👥 Scrum Team
+
+<details>
+
+<summary><strong>Membros</strong></summary>
+
+<span id="equipe">
+
+<br>
+
+| Nome                   | Função         | GitHub                                                                    |
+| ---------------------- | -------------- | ------------------------------------------------------------------------- |
+| **Thiago Bueno**       | Scrum Master   | [![](https://bit.ly/3f9Xo0P)](https://github.com/TjBueno)                 |
+| **Elisa Carvalho**     | Product Owner  | [![](https://bit.ly/3f9Xo0P)](https://github.com/elisadsc)                |
+| **Rebeca Gama**        | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/RebecaGama)              |
+| **João Gabriel**       | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/JoaoGRMira)              |
+| **Diane Alves**        | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/Diane-Moreno)            |
+| **Rita Hecht**         | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/ritahecht)               |
+| **Nicholas Guilherme** | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)           |
+| **Víctor Henrique**    | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)          |
+</details>
+<br>
 <details>
   <summary><strong>:page_facing_up: Estrutura do Código</strong></summary>
 <br>  
@@ -245,31 +268,32 @@
 
 </details>
 
-<br>
 
-  
-## Equipe
 
 <details>
 
-<summary><strong>Equipe</strong></summary>
+<summary><strong>:page_facing_up: DoR </strong></summary>
 
-<span id="equipe">
-
-  ## :clipboard: Scrum Team
-
+## :white_check_mark: (Definition of Ready - DoR)
 <br>
 
-|Nome|Função|GitHub|
-| -------- |-------- |-------- |
-|**Thiago Bueno**|Scrum Master|[![](https://bit.ly/3f9Xo0P)](https://github.com/TjBueno)|
-|**Elisa Carvalho**|Product Owner|[![](https://bit.ly/3f9Xo0P)](https://github.com/elisadsc)|
-|**Rebeca Gama**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/RebecaGama)|
-|**João Gabriel**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/JoaoGRMira)|
-|**Diane Alves**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/Diane-Moreno)|
-|**Rita Hecht**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ritahecht)|
-|**Nicholas Guilherme**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)|
-|**Víctor Henrique**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)|
-|**William da Silva**|Developer Team|[![](https://bit.ly/3f9Xo0P)](https://github.com/William2819/William2819)|
+**Para que uma tarefa seja considerada pronta para ser desenvolvida, ela deve atender aos seguintes critérios:**
+  
+1. Documentação Completa:
+   - Requisitos funcionais e não-funcionais devem estar documentados e acessíveis. 
+   - Especificações técnicas e de design devem estar detalhadas. 
+2. História de Usuário Validada: 
+   - Cada tarefa deve estar vinculada a uma história de usuário específica (exemplo: backlog do produto), com a descrição do problema que resolve e o benefício para o usuário final. 
+3. Dependências Identificadas: 
+   - Todas as dependências com outras tarefas, ferramentas ou recursos devem estar mapeadas e resolvidas. 
+4. Design e Layout Definidos: 
+   - Para tarefas relacionadas à interface, o design deve estar aprovado e disponível. 
+5. Alinhamento com a Sprint: 
+   - A tarefa deve estar dentro do escopo da sprint (Sprint 2) e estar de acordo com as prioridades estabelecidas (urgente, alta, normal, baixa). 
+6. Estimativa de Tempo: 
+   - A tarefa deve ter uma estimativa de tempo de desenvolvimento e testes definida pela equipe. 
 </details>
+
 <br>
+
+ 
