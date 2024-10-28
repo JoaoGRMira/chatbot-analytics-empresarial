@@ -86,6 +86,8 @@
   
 ## :rocket: Entrega das Sprints
 
+Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
+
 <details>
   <summary><strong> Sprint 1 </strong></summary>
 
@@ -160,7 +162,7 @@
   <br>
   
   ## :dart: Entrega
-  [Clique aqui e assista ao vídeo da entrega no YouTube]()
+  [Clique aqui e assista ao vídeo da entrega no YouTube](https://www.youtube.com/watch?v=Bw2vrAb1S68)
 
   <br>
 
