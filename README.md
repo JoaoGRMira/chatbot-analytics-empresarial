@@ -93,6 +93,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
 
   ## :dart: MVP
   Nesta sprint, focamos em entregar o MVP do nosso chatbot, permitindo consultas diretas sobre as avaliações de produtos da base de dados do Hugging Face. 
+  [Clique aqui e acesse a base de dados usada](https://huggingface.co/datasets/ruanchaves/b2w-reviews01)
 
   <br>
 
@@ -138,6 +139,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
 
   ## :dart: MVP
   Realizar a análise de sentimentos dos produtos de forma mais eficiente, utilizando o ChromaDB e LangChain, gerando descrições de produtos mais coesas com o uso do modelo LLaMA. 
+  [Clique aqui e acesse a base de dados usada](https://huggingface.co/datasets/ruanchaves/b2w-reviews01)
 
   <br>
 
