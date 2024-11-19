@@ -128,6 +128,9 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
   ## :dart: Entrega
   [Clique aqui e assista ao vídeo da entrega no YouTube](https://www.youtube.com/watch?v=dKhNMwNdgP8&t=16s)
 
+  Review Chatbot: 
+  https://github.com/user-attachments/assets/2e83f628-fa21-4108-9493-0c18388f0e2a
+
   <br>
 
 </details>
@@ -166,10 +169,65 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
   ## :dart: Entrega
   [Clique aqui e assista ao vídeo da entrega no YouTube](https://www.youtube.com/watch?v=Bw2vrAb1S68)
 
+  Review Interface navegável:
+  https://github.com/user-attachments/assets/118f449f-61f3-41b5-963e-4142675729ce
+
+  Review Chatbot:
+  https://github.com/user-attachments/assets/8410b7cd-e990-49e4-8a72-b67102cdbc53
+
   <br>
 
 </details>
 
+
+<br>
+
+
+<details>
+  <summary><strong> Sprint 3 </strong></summary>
+
+  ## :dart: MVP
+  Realizar a análise detalhada de perfis de consumo por faixa etária e sexo, examinando padrões de compra e preferências de produtos, enquanto também investigamos as variações regionais nas escolhas de produtos e categorias, oferecendo dados sobre os itens mais vendidos e avaliações. Essas análises serão integradas a uma interface funcional. 
+  [Clique aqui e acesse a base de dados usada](https://huggingface.co/datasets/ruanchaves/b2w-reviews01)
+
+  <br>
+
+## :dart: US + Critérios de Aceitação
+**USER STORY 6** 
+- **Descrição:** Como gerente de analytics, quero acessar o chatbot através de uma interface web amigável, onde posso digitar perguntas sobre produtos de forma simples e receber respostas naturais relacionadas às avaliações.
+
+- **Critérios de Aceitação:**
+  - A interface deve ser intuitiva e acessível, permitindo interação sem necessidade de conhecimento técnico.
+  - O chatbot deve responder com clareza e relevância, utilizando linguagem natural.
+  - O sistema deve garantir respostas consistentes e baseadas nos dados de avaliações armazenados.
+  - O tempo de resposta para as consultas deve ser inferior a 5 segundos.
+
+  <br>
+
+**USER STORY 7**  
+- **Descrição:** Como gerente de analytics, quero que o chatbot examine padrões de consumo e preferências de produtos com base na faixa etária e sexo dos usuários, para que eu tenha insights sobre os comportamentos de compra dos consumidores.  
+- **Critérios de Aceitação:**
+  - O chatbot deve identificar padrões de consumo com base na faixa etária e sexo dos consumidores.
+  - A análise deve incluir categorias de produtos preferidos e itens mais comprados para cada grupo.
+  - As informações geradas devem ser apresentadas de forma clara e visual, como gráficos ou tabelas.
+
+<br>
+
+**USER STORY 8**  
+- **Descrição:** Como gerente de analytics, quero consultar a variação nas escolhas de produtos por região e categoria, fornecendo informações sobre os produtos mais vendidos e avaliados para ajudar na tomada de decisões.  
+- **Critérios de Aceitação:**
+  - O chatbot deve segmentar os dados de consumo por regiões, exibindo variações entre categorias de produtos.
+  - Deve ser possível identificar os itens mais vendidos e mais avaliados em cada região.
+  - O sistema deve gerar insights visuais (como mapas ou gráficos) que facilitem a interpretação dos dados regionais.
+
+  <br>
+  
+  ## :dart: Entrega
+  [Clique aqui e assista ao vídeo da entrega no YouTube]()
+
+  <br>
+
+</details>
 
 
 <br>
@@ -193,8 +251,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
 | **João Gabriel**       | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/JoaoGRMira)              |
 | **Diane Alves**        | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/Diane-Moreno)            |
 | **Rita Hecht**         | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/ritahecht)               |
-| **Nicholas Guilherme** | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/NicholasGui29)           |
-| **Víctor Henrique**    | Developer Team | [![](https://bit.ly/3f9Xo0P)](https://github.com/ViktorHenrique)          |
+
 </details>
 <br>
 <details>
@@ -291,7 +348,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
 
 </details>
 
-
+<br>
 
 <details>
 
@@ -312,7 +369,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
 4. Design e Layout Definidos: 
    - Para tarefas relacionadas à interface, o design deve estar aprovado e disponível. 
 5. Alinhamento com a Sprint: 
-   - A tarefa deve estar dentro do escopo da sprint (Sprint 2) e estar de acordo com as prioridades estabelecidas (urgente, alta, normal, baixa). 
+   - A tarefa deve estar dentro do escopo da sprint e estar de acordo com as prioridades estabelecidas (urgente, alta, normal, baixa). 
 6. Estimativa de Tempo: 
    - A tarefa deve ter uma estimativa de tempo de desenvolvimento e testes definida pela equipe. 
 </details>
