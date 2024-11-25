@@ -223,7 +223,7 @@ Ferramenta usada para gestão: https://www.atlassian.com/br/software/jira
   <br>
   
   ## :dart: Entrega
-  [Clique aqui e assista ao vídeo da entrega no YouTube]()
+  [Clique aqui e assista ao vídeo da entrega no YouTube](https://youtu.be/judXWq5NPgU)
 
   <br>
 
