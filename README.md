@@ -18,7 +18,7 @@
   
 ## :clipboard: O Projeto
 
-> **Status do Projeto: Em andamento** 
+> **Status do Projeto: Concluído** 
 
 - O projeto consiste no desenvolvimento de um chatbot baseado em Inteligência Artificial generativa, voltado para a análise de dados comerciais e feedbacks de clientes. O principal objetivo é facilitar a interpretação dos dados qualitativos (comentários e depoimentos de consumidores) sem a necessidade de utilizar dashboards complexos ou gráficos. O chatbot será capaz de responder perguntas específicas sobre o desempenho de produtos e a opinião dos consumidores, oferecendo respostas em linguagem natural e de forma clara, objetiva e direta.
 
